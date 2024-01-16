@@ -1,0 +1,38 @@
+body{
+    background-color: #FF9B85;
+    text-align: center;
+    background-image: url(bg.jpg);
+}
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(0, 9, 59);
+    font-weight: bolder;
+    font-size: 3rem;    
+}
+#jox{
+    font-family: 'Chakra Petch', sans-serif;
+    color: brown;
+    font-size: 2rem;
+}
+img{
+    height: 5rem;
+    width: 5rem;
+    animation: shake 0.5s ease-in-out infinite;
+}
+#title{
+  font-family: 'Changa', sans-serif;
+}
+div:nth-child(2){
+    rotate:-30deg;
+}
+  @keyframes shake {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+      transform: translateY(-10px);
+    }
+    20%, 40%, 60%, 80% {
+      transform: translateY(10px);
+    }
+  }
